@@ -33,5 +33,5 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: fc11c314-b87d-4bc0-9348-eb7ed6cb0574
-          heroku_app_name: 'react-demo-fabbi'
-          heroku_email: 'danghoanglinh16@@gmail.com'
+          heroku_app_name: "react-demo-fabbi"
+          heroku_email: "danghoanglinh16@@gmail.com"

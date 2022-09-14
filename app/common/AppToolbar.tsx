@@ -8,7 +8,7 @@ import {
   IconButton,
   Link,
   Toolbar,
-  Typography
+  Typography,
 } from "@mui/material";
 import * as React from "react";
 import { Link as NavLink } from "react-router-dom";

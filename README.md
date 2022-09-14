@@ -72,4 +72,3 @@ Where `--env` argument is the target deployment area, e.g. `yarn deploy --env=pr
 - `yarn set version latest` — Bump Yarn to the latest version
 - `yarn upgrade-interactive` — Update Node.js modules (dependencies)
 - `yarn dlx @yarnpkg/sdks vscode` — Update TypeScript, ESLint, and Prettier settings in VSCode
-

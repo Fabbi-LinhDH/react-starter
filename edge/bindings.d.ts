@@ -1,5 +1,3 @@
-
-
 declare module "__STATIC_CONTENT_MANIFEST" {
   const JSON: string;
   export default JSON;

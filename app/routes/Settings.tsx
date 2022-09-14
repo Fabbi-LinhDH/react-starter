@@ -1,10 +1,10 @@
 import {
-    Alert,
-    Box,
-    Button,
-    Container,
-    TextField,
-    Typography
+  Alert,
+  Box,
+  Button,
+  Container,
+  TextField,
+  Typography,
 } from "@mui/material";
 import { updateEmail, updateProfile } from "firebase/auth";
 import * as React from "react";

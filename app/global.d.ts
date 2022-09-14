@@ -1,5 +1,3 @@
-
-
 declare const APP_NAME: string;
 declare const APP_HOSTNAME: string;
 declare const GOOGLE_CLOUD_PROJECT: string;

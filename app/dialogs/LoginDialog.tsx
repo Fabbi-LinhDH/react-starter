@@ -6,7 +6,7 @@ import {
   DialogContent,
   DialogProps,
   IconButton,
-  Typography
+  Typography,
 } from "@mui/material";
 import { type UserCredential } from "firebase/auth";
 import * as React from "react";

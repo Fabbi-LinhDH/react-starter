@@ -1,10 +1,10 @@
 import { type PaletteMode } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import {
-    atom,
-    selectorFamily,
-    useRecoilCallback,
-    useRecoilValue
+  atom,
+  selectorFamily,
+  useRecoilCallback,
+  useRecoilValue,
 } from "recoil";
 import { components } from "./components.js";
 import palettes from "./palettes.js";

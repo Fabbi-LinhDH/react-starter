@@ -1,12 +1,12 @@
 import { Brightness4, Settings } from "@mui/icons-material";
 import {
-    Link,
-    ListItemIcon,
-    ListItemText,
-    Menu,
-    MenuItem,
-    MenuProps,
-    Switch
+  Link,
+  ListItemIcon,
+  ListItemText,
+  Menu,
+  MenuItem,
+  MenuProps,
+  Switch,
 } from "@mui/material";
 import * as React from "react";
 import { Link as NavLink, useNavigate } from "react-router-dom";

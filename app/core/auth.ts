@@ -6,7 +6,7 @@ import {
   auth,
   signIn,
   type SignInMethod,
-  type SignInOptions
+  type SignInOptions,
 } from "./firebase.js";
 
 export const SignInMethods: SignInMethod[] = [
@@ -136,4 +136,3 @@ export {
   type User,
   type UserCredential,
 };
-

@@ -1,6 +1,6 @@
 import {
-    getAssetFromKV,
-    serveSinglePageApp
+  getAssetFromKV,
+  serveSinglePageApp,
 } from "@cloudflare/kv-asset-handler";
 import { Hono } from "hono";
 import manifest from "__STATIC_CONTENT_MANIFEST";

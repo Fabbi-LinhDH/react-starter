@@ -1,0 +1,37 @@
+name: Development workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Development Code
+        uses: actions/checkout@v2
+      - name: Use Node.js 17.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 17.x
+      # Install dependencies
+      - run: yarn install
+
+      # Analyze code for potential problems
+      - run: yarn prettier --check .
+      - run: yarn lint
+      - run: yarn tsc --build
+
+      # Test
+      # - run: yarn test
+
+      # Compile
+      - run: yarn build
+      - name: Deploy to Heroku
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: fc11c314-b87d-4bc0-9348-eb7ed6cb0574
+          heroku_app_name: 'react-demo-fabbi'
+          heroku_email: 'danghoanglinh16@@gmail.com'
